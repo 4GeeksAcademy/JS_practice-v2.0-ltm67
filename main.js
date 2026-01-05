@@ -3,6 +3,7 @@ console.log("Hola desde la consola")
 
 console.log("Con un loop")
 let personajes = ["Mario","Luigi","Bowser","Toad","Peach","Star"]
+let numbers = [2,3,4,5,6,7,8,9,15,17,19,20]
 
 for (i = 0; i < personajes.length; i++){
     console.log(personajes[i])
@@ -25,6 +26,9 @@ console.log(personajesbuenos)
 
 console.log(personajes.filter((personaje) => personaje != "Bowser"))
 console.log(personajes)
+
+console.log(numbers)
+console.log(numbers.filter((number) => number != 7))
 
 
 
