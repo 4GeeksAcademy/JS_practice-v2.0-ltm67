@@ -52,5 +52,13 @@ personajes.forEach((nombre) => {
     console.log(nombre)
 })
 
+console.log("Do while")
+
+let j = 2
+
+do{
+    console.log(j)
+    j++
+}while(j < 10)
 
 
