@@ -29,6 +29,24 @@ console.log(personajes)
 
 console.log(numbers)
 console.log(numbers.filter((number) => number != 7))
+console.log(numbers.filter((number) => number > 7 ))
+console.log(numbers.filter((number) => number < 15))
+console.log(numbers.filter((number) => number% 3 == 0))
+
+let newNumbers = []
+
+for(i = 0; i < numbers.length; i++){
+   console.log(numbers[i] * 4)
+   newNumbers.push(numbers[i] * 4)
+}
+
+console.log(numbers)
+console.log(newNumbers)
+
+let mapNumbers = numbers.map((number) => number * 4)
+console.log(mapNumbers)
+
+
 
 
 
