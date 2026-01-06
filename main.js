@@ -46,7 +46,11 @@ console.log(newNumbers)
 let mapNumbers = numbers.map((number) => number * 4)
 console.log(mapNumbers)
 
+console.log(personajes.map((personaje) => personaje + "s"))
 
+personajes.forEach((nombre) => {
+    console.log(nombre)
+})
 
 
 
